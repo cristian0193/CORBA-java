@@ -1,0 +1,12 @@
+module cliente_servidores1{
+
+    interface Despachos_Filial{ 
+                      
+        long insertarFiliales(in wstring codigo_filial, in wstring nombre, in wstring origen, in wstring ubicacion, in wstring actividad, in wstring fecha_creacion);        
+
+        wstring consultaFiliales_id(in wstring id_filial);
+
+        long validarUsuarioServidor1(in wstring usuario,in wstring contrasena);
+        
+    }; 
+};

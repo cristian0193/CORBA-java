@@ -1,0 +1,12 @@
+module cliente_servidores3{
+
+    interface Despachos_Conductor{ 
+                     
+        long insertarConductores(in wstring codigo_conductor, in wstring nombre_completo, in long edad, in wstring direccion, in wstring telefono, in wstring experiencia, in wstring fecha_creacion);
+
+        wstring consultaConductor_id(in wstring id_conductor);
+
+        long validarUsuarioServidor3(in wstring usuario,in wstring contrasena);
+
+    }; 
+};
